@@ -235,7 +235,6 @@ body {
 
 .user-info img {
   width: 120px;
-  aspect-ratio: 1/1;
   border-radius: 50%;
   object-fit: cover;
   border: 5px solid var(--color-white);
@@ -347,4 +346,114 @@ body {
 .item-container p {
   font-size: 1rem;
   opacity: 0.8;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+
+  .swiper-slide {
+    height: 110px;
+  }
+
+  .swiper-slide img {
+    width: 103%;
+  }
+
+  .star-button {
+    display: none;
+  }
+
+  .user {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .user-info img {
+    width: 100px;
+    margin-top: -20px;
+  }
+
+  .user-info h1 {
+    font-size: 1.2rem;
+    margin-top: 8px;
+  }
+
+  .user-info p {
+    font-size: 1rem;
+  }
+
+  .follow-button {
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+
+  .item-container {
+    flex-direction: column;
+    row-gap: 20px;
+    column-gap: 0;
+  }
+
+  .item-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .item-container p {
+    font-size: 0.9rem;
+  }
+
+  .text {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-slide {
+    height: 80px;
+  }
+
+  .swiper-slide img {
+    width: 105%;
+  }
+
+  .star-button {
+    display: none;
+  }
+
+  .user-info img {
+    width: 80px;
+    margin-top: -10px;
+  }
+
+  .user-info h1 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  .user-info p {
+    font-size: 1.2rem;
+  }
+
+  .content {
+    padding: 0 20px;
+  }
+
+  .follow-button {
+    padding: 6px 8px;
+    font-size: 0.8rem;
+  }
+
+  .item-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .item-container p {
+    font-size: 0.8rem;
+  }
+
+  .text {
+    padding: 0 10px;
+  }
 }
