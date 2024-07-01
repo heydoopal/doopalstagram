@@ -11,6 +11,12 @@
 
 <br>
 
+![](https://velog.velcdn.com/images/zidoopal/post/413d0577-c22e-4127-b8b3-3cd85dbb32a5/image.png)
+
+- 모바일 반응형 페이지
+
+<br>
+
 #### 폴더구조
 
 ```
